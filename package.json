@@ -1,0 +1,27 @@
+{
+  "name": "nodeposgrad",
+  "version": "1.0.0",
+  "description": "projeto pós graduação",
+  "main": "start.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navarrowebapi/nodepos-ateaula5-antesdecontrollers.git"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.4",
+    "mongoose": "5.3.6",
+    "request": "2.88.0"
+  },
+  "author": "fabio navarro",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-node8": "^1.2.0"
+  }
+}
